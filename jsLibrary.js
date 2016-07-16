@@ -67,7 +67,6 @@ Array.prototype._every = function(callback, thisArg) {
 
 //some
 
-
 Array.prototype._some = function(callback, thisArg) {
   for (let index = 0; index < this.length; index++) {
     const test = callback.call(thisArg, this[index], index, this);
