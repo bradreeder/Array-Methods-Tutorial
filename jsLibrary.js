@@ -1,10 +1,11 @@
 //map
 
 Array.prototype._map = function(callback, thisArg) {
+  let map = [];
   for (let index = 0; index < this.length; index++) {
-    this[index] = callback.call(thisArg, this[index], index, this);
+    map.push(callback.call(thisArg, this[index], index, this));
   }
-  return this;
+  return map;
 };
 
 //forEach
