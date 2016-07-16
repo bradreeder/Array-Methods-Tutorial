@@ -12,7 +12,7 @@ It currently includes: `_map`, `_forEach`, `_find`, `_findIndex`, `_filter`, `_e
 `_reduce`, and `_reduceRight`.
 
 My array methods are not polyfills for the real methods. There are a number of edge cases the real
-ones handle that I've avoided handling for sake of capturing the basic idea of these methods as simply
+ones handle that I've avoided for sake of capturing the basic idea of these methods as simply
 as possible.
 
 ##Why
