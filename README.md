@@ -1,8 +1,5 @@
 # Array-Methods-Tutorial
 
-I've created a series of video-tutorials to accompany this library. If you plan to follow them I'd strongly
-recommend not reading the source code here first as the tutorials will include exercises that will involve writing some of the array methods yourself.
-
 ##What
 
 This is a library of Javascript Array methods that tries to recreate the basic functionality of
@@ -12,8 +9,7 @@ It currently includes: `_map`, `_forEach`, `_find`, `_findIndex`, `_filter`, `_e
 `_reduce`, and `_reduceRight`.
 
 My array methods are not polyfills for the real methods. There are a number of edge cases the real
-ones handle that I've avoided for sake of capturing the basic idea of these methods as simply
-as possible.
+ones handle that I've avoided for sake of capturing the basic idea of these methods in a simple way.
 
 ##Why
 
@@ -53,3 +49,4 @@ in the MDN articles below:
 * Go through the steps of making this into a real library.
 * Study the underscore.js annotated library thoroughly and try to recreate some of its unique methods here.
 * Build upon my library with more array methods.
+* Make a video-tutorial series explaining these methods.
